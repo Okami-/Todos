@@ -1,0 +1,166 @@
+/* line 17, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rvm/gems/ruby-2.1.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 7, ../sass/screen.scss */
+body {
+  width: 540px;
+  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
+  background-color: #E0E0E1;
+}
+
+/* line 14, ../sass/screen.scss */
+#todo {
+  width: 540px;
+  height: 600px;
+  -webkit-border-bottom-right-radius: 7px;
+  -webkit-border-bottom-left-radius: 7px;
+  -moz-border-radius-bottomright: 7px;
+  -moz-border-radius-bottomleft: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  background-color: white;
+  -webkit-box-shadow: 0px 1px 11px 0px rgba(50, 50, 50, 0.5);
+  -moz-box-shadow: 0px 1px 11px 0px rgba(50, 50, 50, 0.5);
+  box-shadow: 0px 1px 11px 0px rgba(50, 50, 50, 0.5);
+}
+
+/* line 31, ../sass/screen.scss */
+.header h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: #4D4C4C;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+/* line 40, ../sass/screen.scss */
+.header hr {
+  height: 6px;
+  border: 0;
+  box-shadow: inset 0 6px 6px -6px #E6E6E6;
+}
+
+/* line 49, ../sass/screen.scss */
+footer h3 {
+  text-align: center;
+  padding-top: 30px;
+  color: #b8b8b8;
+  font-size: 16px;
+}
+/* line 55, ../sass/screen.scss */
+footer a {
+  text-decoration: none;
+  color: #EC1D45;
+}
+
+/* line 61, ../sass/screen.scss */
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 66, ../sass/screen.scss */
+.todo-input input {
+  width: 515px;
+  height: 40px;
+  margin-top: 10px;
+  border: 0;
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #4D4C4C;
+}
+/* line 77, ../sass/screen.scss */
+.todo-input input input:focus {
+  outline: 0;
+}
+
+/* line 82, ../sass/screen.scss */
+::-webkit-input-placeholder {
+  color: #E8E8E8;
+}
+
+/* line 86, ../sass/screen.scss */
+:-moz-placeholder {
+  color: #E8E8E8;
+}
+
+/* line 90, ../sass/screen.scss */
+::-moz-placeholder {
+  color: #E8E8E8;
+}
+
+/* line 94, ../sass/screen.scss */
+:-ms-input-placeholder {
+  color: #E8E8E8;
+}
