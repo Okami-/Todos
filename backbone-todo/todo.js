@@ -5,7 +5,6 @@ $.ajaxPrefilter( function( options, originalOptions, jqXHR) {
 });
 */
 
-
 var Todo = Backbone.Model.extend({
   url: '/todos'
 });
@@ -13,7 +12,12 @@ var Todo = Backbone.Model.extend({
 var TodoList = Backbone.View.extend({
   el: '.page',
   render: function() {
-    this.$el.html();
+    var todo = new Todo();
+    todo.fetch({
+      success: function() {
+        this.$el.html('meow');
+      }
+    })
   }
 });
 

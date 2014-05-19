@@ -5,12 +5,16 @@
 */
 
 body {
-  width: 540px;
-  margin: 0 auto;
+  width: 960px;
   font-family: 'Raleway', sans-serif;
   background-color: #E0E0E1;
+  margin: 0 auto;
 }
 
+.container {
+  margin: 0 auto;
+  width: 540px;
+}
 #todo {
   width: 540px;
   height: 600px;
@@ -74,7 +78,7 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
   color: #4D4C4C;
-  input:focus {
+  &:focus {
     outline: 0;
   }
 }
